@@ -12,7 +12,7 @@
 
 The following diagram illustrates the overall structure of the **BiLSTM-SDTCN-AutoCorr** model, including the BiLSTM encoder, sequence decomposition module, Auto-Correlation attention, and TCN decoder:
 
-![Model Architecture](模型结构图.png)
+![Model Architecture](Model.png)
 
 ---
 
