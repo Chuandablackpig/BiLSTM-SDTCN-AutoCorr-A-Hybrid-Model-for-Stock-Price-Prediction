@@ -1,0 +1,17 @@
+2025-09-29 13:59:07,897 - us_index_data_fetcher - INFO - 
+==================================================
+2025-09-29 13:59:07,898 - us_index_data_fetcher - INFO - 开始获取美股指数数据
+2025-09-29 13:59:07,898 - us_index_data_fetcher - INFO - ==================================================
+2025-09-29 13:59:07,898 - us_index_data_fetcher - INFO - 正在获取 标普500 数据...
+2025-09-29 13:59:11,557 - us_index_data_fetcher - INFO - 标普500 包含的字段: [('Close', 'SPY'), ('High', 'SPY'), ('Low', 'SPY'), ('Open', 'SPY'), ('Volume', 'SPY')]
+2025-09-29 13:59:11,578 - us_index_data_fetcher - INFO - 标普500 数据已保存至 D:\PyCharm\PyCharmProjects\Stock\data/标普500_2012-02-01_to_2025-02-28.csv，共 3288 条记录
+2025-09-29 13:59:11,578 - us_index_data_fetcher - INFO - 正在获取 纳斯达克100 数据...
+2025-09-29 13:59:12,434 - us_index_data_fetcher - INFO - 纳斯达克100 包含的字段: [('Close', 'QQQ'), ('High', 'QQQ'), ('Low', 'QQQ'), ('Open', 'QQQ'), ('Volume', 'QQQ')]
+2025-09-29 13:59:12,452 - us_index_data_fetcher - INFO - 纳斯达克100 数据已保存至 D:\PyCharm\PyCharmProjects\Stock\data/纳斯达克100_2012-02-01_to_2025-02-28.csv，共 3288 条记录
+2025-09-29 13:59:12,452 - us_index_data_fetcher - INFO - 正在获取 道琼斯工业平均指数 数据...
+2025-09-29 13:59:13,301 - us_index_data_fetcher - INFO - 道琼斯工业平均指数 包含的字段: [('Close', 'DIA'), ('High', 'DIA'), ('Low', 'DIA'), ('Open', 'DIA'), ('Volume', 'DIA')]
+2025-09-29 13:59:13,316 - us_index_data_fetcher - INFO - 道琼斯工业平均指数 数据已保存至 D:\PyCharm\PyCharmProjects\Stock\data/道琼斯工业平均指数_2012-02-01_to_2025-02-28.csv，共 3288 条记录
+2025-09-29 13:59:13,316 - us_index_data_fetcher - INFO - 正在获取 罗素2000小盘股指数 数据...
+2025-09-29 13:59:14,160 - us_index_data_fetcher - INFO - 罗素2000小盘股指数 包含的字段: [('Close', 'IWM'), ('High', 'IWM'), ('Low', 'IWM'), ('Open', 'IWM'), ('Volume', 'IWM')]
+2025-09-29 13:59:14,175 - us_index_data_fetcher - INFO - 罗素2000小盘股指数 数据已保存至 D:\PyCharm\PyCharmProjects\Stock\data/罗素2000小盘股指数_2012-02-01_to_2025-02-28.csv，共 3288 条记录
+2025-09-29 13:59:14,175 - us_index_data_fetcher - INFO - 所有美股指数数据获取完成！

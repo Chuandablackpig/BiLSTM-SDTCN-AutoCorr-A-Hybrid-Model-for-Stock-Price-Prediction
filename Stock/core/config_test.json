@@ -1,0 +1,70 @@
+{
+  "model": {
+    "input_features": 10,
+    "seq_len": 20,
+    "bilstm_hidden": 64,
+    "bilstm_layers": 3,
+    "transformer_heads": 8,
+    "transformer_layers": 6,
+    "tcn_channels": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "tcn_kernel_size": 7,
+    "dropout": 0.2,
+    "decomp_kernel_size": 25,
+    "autocorr_factor": 1
+  },
+  "training": {
+    "epochs": 1000,
+    "batch_size": 36,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "early_stopping_patience": 100,
+    "save_interval": 100,
+    "validation_interval": 10,
+    "optimizer": "adam",
+    "loss_function": "mse",
+    "device": "cuda"
+  },
+  "data": {
+    "window_size": 20,
+    "test_size": 0.2,
+    "random_state": 42,
+    "target_column": "收盘",
+    "feature_columns": [
+      "收盘",
+      "最高",
+      "最低",
+      "开盘",
+      "涨跌额",
+      "涨跌幅",
+      "成交量",
+      "成交额",
+      "MA5",
+      "MA10"
+    ],
+    "num_workers": 10,
+    "pin_memory": true,
+    "persistent_workers": true
+  },
+  "paths": {
+    "project_root": "D:\\PyCharm\\PyCharmProjects\\Stock",
+    "data_dir": "D:\\PyCharm\\PyCharmProjects\\Stock\\data",
+    "results_dir": "D:\\PyCharm\\PyCharmProjects\\Stock\\results",
+    "models_dir": "D:\\PyCharm\\PyCharmProjects\\Stock\\saved_models",
+    "logs_dir": "D:\\PyCharm\\PyCharmProjects\\Stock\\logs",
+    "stock_data_file": "D:\\PyCharm\\PyCharmProjects\\Stock\\data\\上证综指_20120201_to_20250228.csv",
+    "prediction_results_file": "D:\\PyCharm\\PyCharmProjects\\Stock\\results\\prediction_results.csv"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_handler": true,
+    "console_handler": true,
+    "max_bytes": 10485760,
+    "backup_count": 5
+  }
+}
